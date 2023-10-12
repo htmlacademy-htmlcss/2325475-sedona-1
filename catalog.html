@@ -4,14 +4,15 @@
   <head>
     <meta charset="utf-8">
     <title>Гостиницы Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
-    <header class="main-header">
-      <a class="main-header-logo" href="#">
+    <header class="navigation">
+      <a class="navigation-logo" href="#">
         <img class="logo-site" width="140" height="70" src="images/logo.svg" alt="Логотип в шапке сайта Седона">
       </a>
-      <nav>
+      <nav class="nav">
         <ul class="nav-list">
           <li><a class="nav-list-link" href="index.html">Главное</a></li>
           <li><a class="nav-list-link" href="#">О Седоне</a></li>
@@ -26,7 +27,7 @@
               <span class="visually-hidden">Избранное</span></a>
           </li>
           <li>
-            <button class="button button-brown" type="button">В избранное</button>
+            <button class="button button-brown" type="button">Хочу Сюда</button>
           </li>
         </ul>
       </nav>
@@ -42,21 +43,21 @@
 
         <form action="#" method="get">
           <fieldset>
-            <legend>Инфрастуктура:</legend>
+            <legend class="head-leg">Инфрастуктура:</legend>
             <label><input type="checkbox" name="infrastructure" checked value="pool">Бассейн</label>
             <label><input type="checkbox" name="infrastructure" checked value="parking">Парковка</label>
             <label><input type="checkbox" name="infrastructure" value="wifi">Wi-Fi</label>
           </fieldset>
 
           <fieldset>
-            <legend>Тип жилья:</legend>
+            <legend class="head-leg">Тип жилья:</legend>
             <label><input id="hotel-radio" name="type-radio" type="radio" checked value="Hotel">Гостиница</label>
             <label><input id="motel-radio" name="type-radio" type="radio" value="Motel">Мотель</label>
             <label><input id="apartments-radio" name="type-radio" type="radio" value="Apartments">Апартаменты</label>
           </fieldset>
 
           <fieldset>
-            <legend>Стоимость, <span>₽:</span></legend>
+            <legend class="head-leg">Стоимость, <span>₽:</span></legend>
             <label><input type="text" value="0">от</label>
             <label><input type="text" value="9000">до</label>
           </fieldset>
@@ -225,7 +226,7 @@
 
       <div class="footer-contact-logo">
         <a class="page-footer-contact-logo-htmlacademy" href="https://htmlacademy.ru/">
-          <img class="contact-logo" src="images/html-academy.svg" width="115" height="33" alt="Логотип htmlacademy">
+          <img class="contact-logo" src="images/htmlacademy.svg" width="115" height="33" alt="Логотип htmlacademy">
           <span class="visually-hidden">Переход на сайт HTML Academy</span>
         </a>
       </div>

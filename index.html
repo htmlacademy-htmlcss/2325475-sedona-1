@@ -4,16 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
-    <header class="main-header">
-      <a class="main-header-logo">
+    <header class="navigation">
+      <a class="navigation-logo">
         <img class="logo-site" width="140" height="70" src="images/logo.svg" alt="Логотип в шапке сайта Седона">
       </a>
-      <nav>
+      <nav class="nav">
         <ul class="nav-list">
-          <li><a class="nav-list-link">Главное</a></li>
+          <li><a class="nav-list-link">главная</a></li>
           <li><a class="nav-list-link" href="#">О Седоне</a></li>
           <li><a class="nav-list-link" href="catalog.html">Гостиницы</a></li>
         </ul>
@@ -26,7 +27,7 @@
               <span class="visually-hidden">Избранное</span></a>
           </li>
           <li>
-            <button class="button button-brown" type="button">В избранное</button>
+            <button class="button button-brown" type="button">Хочу сюда</button>
           </li>
         </ul>
       </nav>
@@ -56,7 +57,7 @@
             <p class="description">Все достопримечательности находятся очень близко</p>
           </li>
 
-          <li class="advantages-item">
+          <li class="advantages-item light-blue">
             <h3 class="header">Красивая дорога</h3>
             <p class="description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
@@ -84,15 +85,15 @@
 
       <div class="advantages">
         <ul>
-          <li class="advantages-item">
+          <li class="advantages-item light-blue">
             <div class="header">Жильё</div>
             <div class="description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</div>
           </li>
           <li class="advantages-item">
             <div class="header">Еда</div>
-            <div class="description">>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</div>
+            <div class="description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</div>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item light-blue">
             <div class="header">Сувениры</div>
             <div class="description">Не только китайского, но и настоящего местного производства!</div>
           </li>
@@ -103,7 +104,7 @@
         <h2 class="header-block">Заинтересовались?</h2>
         <p class="description-block">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
           Седоне</p>
-        <a class="button" href="#">Поиск гостиницы в Седоне</a>
+        <a class="button button-brown" href="#">Поиск гостиницы в Седоне</a>
       </section>
 
       <section>
@@ -111,7 +112,7 @@
         <p class="description-block">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="#" method="post">
           <input type="email" placeholder="Ваш e-mail">
-          <button type="submit">Подписаться</button>
+          <button class="button blue" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
@@ -142,12 +143,12 @@
       </div>
 
       <div class="footer-contact-number">
-        <a href="tel:88128121212" class="page-footer-contact-number-num">+7 (812) 812-12-12</a>
+        <a href="tel:88128121212" class="number-num">+7 (812) 812-12-12</a>
       </div>
 
       <div class="footer-contact-logo">
         <a class="page-footer-contact-logo-htmlacademy" href="https://htmlacademy.ru/">
-          <img class="contact-logo" src="images/html-academy.svg" width="115" height="33" alt="Логотип htmlacademy">
+          <img class="contact-logo" src="images/htmlacademy.svg" width="115" height="33" alt="Логотип htmlacademy">
           <span class="visually-hidden">Переход на сайт HTML Academy</span>
         </a>
       </div>

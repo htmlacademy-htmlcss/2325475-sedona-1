@@ -1,0 +1,144 @@
+/* Шрифты */
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* Шапка */
+
+.nav-list {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+/* Основное */
+.main-index {
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages-block {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.head-main {
+  line-height: 23px;
+}
+
+.nav-link-head {
+  font-size: 16px;
+}
+
+.head-leg {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.search-hotel-number {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+/* Карточки */
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.price {
+  text-align: right;
+}
+
+/* Преимущества */
+.advantages-list {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+/* Подписка */
+.header-block {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.description-block {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+/* Подвал */
+
+/* Телефон */
+.number-num {
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+text-decoration: none;
+color: inherit;
+}
+
+/* Цветные боксы */
+.blue {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+.light-blue {
+  background-color: #83B3D333;
+}
+
+/* Невидимые фрагменты */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Кнопки */
+.button-brown {
+  background-color: #756157;
+  color: #FFFFFF;
+}
